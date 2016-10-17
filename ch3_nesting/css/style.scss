@@ -1,0 +1,56 @@
+/*
+ * Globals
+ */
+
+$red: #e22251;
+$grey: #333;
+$font: Tahoma;
+body {
+    font-family: $font;
+}
+
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6 {
+    margin-top: 0;
+    font-family: $font;
+    font-weight: normal;
+    color: $red;
+}
+
+
+/* Components*/
+
+.container .row {
+    padding: 10px;
+}
+
+.foo {
+    min-height: 200px;
+    line-height: 1.5em;
+    border: 1px solid $red;
+    border-radius: 10px;
+    padding: 10px;
+    .bar {
+        font-size: 1.3em;
+    }
+    .bar2 {
+        color: $red;
+    }
+    .bar3 {
+        color: seagreen;
+        .btn {
+            background: $red;
+            border: 1px solid $red;
+        }
+    }
+}

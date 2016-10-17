@@ -1,0 +1,44 @@
+/*
+ * Globals
+ */
+body {
+  font-family: Tahoma; }
+
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6 {
+  margin-top: 0;
+  font-family: Tahoma;
+  font-weight: normal;
+  color: #e22251; }
+
+/* Components*/
+.container .row {
+  padding: 10px; }
+
+.foo {
+  min-height: 200px;
+  line-height: 1.5em;
+  border: 1px solid #e22251;
+  border-radius: 10px;
+  padding: 10px; }
+  .foo .bar {
+    font-size: 1.3em; }
+  .foo .bar2 {
+    color: #e22251; }
+  .foo .bar3 {
+    color: seagreen; }
+    .foo .bar3 .btn {
+      background: #e22251;
+      border: 1px solid #e22251; }
+
+/*# sourceMappingURL=style.css.map */
