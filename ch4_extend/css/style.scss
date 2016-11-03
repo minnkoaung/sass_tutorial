@@ -1,0 +1,53 @@
+/*
+ * Globals
+ */
+
+$myBlack : #000;
+
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #555;
+}
+
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6 {
+  margin-top: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  color: $myBlack ;
+}
+
+/* Components*/
+
+
+.container .row{
+  padding: 10px;
+}
+
+.foo{
+  min-height: 200px;
+  line-height: 1.5em;
+  border: 1px solid $myBlack;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.foo2{
+  display:inline-block;
+  border-radius : 10px;
+  background : #e22251;
+  color:white;
+  padding:10px;
+}
+
+.ext{
+  @extend .foo2;
+  background : #000;
+}
+
+
+

@@ -1,0 +1,39 @@
+* {
+  margin: 0px;
+  padding: 0px; }
+
+/*%global{
+	width: 200px;
+	height: 200px;
+	margin: 5px;
+	background: $smart_red;
+	line-height: 200px;
+}*/
+.el1 {
+  /*@extend %global;*/
+  width: 200px;
+  height: 200px;
+  margin: 5px;
+  background: #e22251;
+  line-height: 200px;
+  text-align: center; }
+
+.el2 {
+  /*@extend %global;*/
+  width: 200px;
+  height: 200px;
+  margin: 5px;
+  background: #e22251;
+  line-height: 200px;
+  text-align: center; }
+
+.el3 {
+  /*@extend %global;*/
+  width: 200px;
+  height: 200px;
+  margin: 5px;
+  background: #e22251;
+  line-height: 200px;
+  text-align: center; }
+
+/*# sourceMappingURL=mixin.css.map */

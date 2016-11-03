@@ -1,0 +1,38 @@
+$smart_red : #e22251;
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+/*%global{
+	width: 200px;
+	height: 200px;
+	margin: 5px;
+	background: $smart_red;
+	line-height: 200px;
+}*/
+
+@mixin global{
+	width: 200px;
+	height: 200px;
+	margin: 5px;
+	background: $smart_red;
+	line-height: 200px;
+}
+
+.el1{
+	/*@extend %global;*/
+	@include global;
+	text-align: center;
+}
+.el2{
+	/*@extend %global;*/
+	@include global;
+	text-align: center;
+}
+.el3{
+	/*@extend %global;*/
+	@include global;
+	text-align: center;
+}
